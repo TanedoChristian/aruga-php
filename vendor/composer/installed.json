@@ -1,0 +1,43 @@
+{
+    "packages": [
+        {
+            "name": "aruga/platform",
+            "version": "v1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TanedoChristian/aruga-platformv1.git",
+                "reference": "90c271d124167c8f312796afd4bcc8e5783ff262"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TanedoChristian/aruga-platformv1/zipball/90c271d124167c8f312796afd4bcc8e5783ff262",
+                "reference": "90c271d124167c8f312796afd4bcc8e5783ff262",
+                "shasum": ""
+            },
+            "time": "2022-11-30T13:45:03+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Aruga\\Platform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Christian John Tanedo",
+                    "email": "ctanedo@dnamicro.com"
+                }
+            ],
+            "description": "aruga platform",
+            "support": {
+                "issues": "https://github.com/TanedoChristian/aruga-platformv1/issues",
+                "source": "https://github.com/TanedoChristian/aruga-platformv1/tree/v1.0.1"
+            },
+            "install-path": "../aruga/platform"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

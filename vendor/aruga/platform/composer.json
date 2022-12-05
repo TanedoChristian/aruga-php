@@ -1,0 +1,16 @@
+{
+    "name": "aruga/platform",
+    "description": "aruga platform",
+    "autoload": {
+        "psr-4": {
+            "Aruga\\Platform\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian John Tanedo",
+            "email": "ctanedo@dnamicro.com"
+        }
+    ],
+    "require": {}
+}

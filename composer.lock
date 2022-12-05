@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2de34273d16cc105e1806e13944ddd43",
+    "packages": [
+        {
+            "name": "aruga/platform",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TanedoChristian/aruga-platformv1.git",
+                "reference": "90c271d124167c8f312796afd4bcc8e5783ff262"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TanedoChristian/aruga-platformv1/zipball/90c271d124167c8f312796afd4bcc8e5783ff262",
+                "reference": "90c271d124167c8f312796afd4bcc8e5783ff262",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aruga\\Platform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Christian John Tanedo",
+                    "email": "ctanedo@dnamicro.com"
+                }
+            ],
+            "description": "aruga platform",
+            "support": {
+                "issues": "https://github.com/TanedoChristian/aruga-platformv1/issues",
+                "source": "https://github.com/TanedoChristian/aruga-platformv1/tree/v1.0.1"
+            },
+            "time": "2022-11-30T13:45:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
