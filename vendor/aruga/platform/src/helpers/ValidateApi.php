@@ -8,8 +8,8 @@ class ValidateApi {
     public static function check(){
 
         $headers = apache_request_headers();
-        if(isset($headers['x-api-key'])){
-            $api = $headers["x-api-key"];
+        if(isset($headers['Authorization'])){
+            $api = $headers["Authorization"];
         } else {
             $api = '';
         }

@@ -12,6 +12,7 @@ myAutoloder();
 
 
 Router::get('/accounts', function(){
+    header('Content-type: application/json');
     UserController::get();
 });
 
@@ -21,10 +22,13 @@ Router::post('/register', function($request){
         $request["firstname"],
         $request["lastname"],
         $request["address"],
+        $request["telno"],
         $request["mobileno"],
         $request["email"],
         $request["password"],
-        $request["username"]
+        $request["username"],
+        $request["type"],
+        $request["status"]
     );
 });
 
@@ -35,6 +39,10 @@ Router::post('/login', function($request){
         $request["username"],
         $request["password"]   
     );
+});
+
+Router::delete('/delete-user', function(){
+    UserController::deleteAllUser();
 });
 
 
